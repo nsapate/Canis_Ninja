@@ -3928,12 +3928,12 @@ tbody.collapse.show {
 .tab-content > .tab-pane {
   display: none;
 }
-
+navbar-static-top
 .tab-content > .active {
   display: block;
 }
 
-.navbar {
+.navbar-static-topnavbar {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7484,6 +7484,7 @@ button.bg-dark:focus {
 .mt-3,
 .my-3 {
   margin-top: 1rem !important;
+  align-items: center;
 }
 
 .mr-3,

@@ -1,8 +1,8 @@
 /*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
+    Author: W3Layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 html,
@@ -61,6 +61,12 @@ p {
 ul {
     margin: 0;
     padding: 0;
+}
+
+/* logo */
+.logo img{
+    height: 50px;
+    width: auto;
 }
 
 /*--/header --*/
@@ -140,12 +146,12 @@ ul {
 }
 
 .sps--blw {
-    background-color: #f7f7f7;
+    background-color: #167ac0;
     color: #fff;
 }
 
 .top-bar a.navbar-brand {
-    color: #fff;
+    color: #007bff; 
     font-size: 35px;
     font-weight: 800;
     padding: 5px 0 0 10px;
@@ -172,7 +178,7 @@ ul {
 }
 
 .sps--blw.top-bar .nav-link {
-    color: #000
+    color: #000;
 }
 
 .top-bar .navbar-nav .nav-item {
@@ -189,7 +195,7 @@ ul {
 .sps--blw.top-bar .nav-link:hover,
 .sps--blw.top-bar .nav-item.active a {
     color: #0297ff;
-    border-bottom: none;
+    border-bottom: 2px solid  #0297ff;
     border-radius: 0;
 }
 
@@ -539,6 +545,7 @@ span.post-color {
 
 .about-sec {
     background:url(../images/33.jpg) no-repeat center center;
+    padding-top:100px;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -812,6 +819,10 @@ button.swiper-pagination-bullet {
     -ms-appearance: none;
     -webkit-appearance: none;
     appearance: none
+}
+
+.center-button{
+    margin: 0 auto
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -1207,7 +1218,7 @@ figure {
 }
 
 .column .personal_gallery_effect{
-	position: relative;
+    position: relative;
 }
 .personal_gallery_effect img {
     width: 100%;
@@ -1216,41 +1227,41 @@ a.sb {
     display: block;
 }
 .hover14 figure {
-	overflow: hidden;
-	position: relative;
+    overflow: hidden;
+    position: relative;
 }
 .hover14 figure::before {
-	position: absolute;
-	top: 0;
-	left: -75%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform:skewX(-17deg);
-	-moz-transform: skewX(-17deg);
-	-o-transform: skewX(-17deg);
-	-ms-transform: skewX(-17deg);
-	transform: skewX(-17deg);
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform:skewX(-17deg);
+    -moz-transform: skewX(-17deg);
+    -o-transform: skewX(-17deg);
+    -ms-transform: skewX(-17deg);
+    transform: skewX(-17deg);
 }
 .hover14 figure:hover::before {
-	-webkit-animation: shine .95s;
-	-moz-animation: shine .95s; 
-	animation: shine .95s;
+    -webkit-animation: shine .95s;
+    -moz-animation: shine .95s; 
+    animation: shine .95s;
 }
 @keyframes shine {
-	100% {
-		left: 125%;
-	}
+    100% {
+        left: 125%;
+    }
 }
 /*-- //projects --*/
 /*-- /testimonials --*/
 .blog .carousel-indicators {
-	left: 0;
-	top: auto;
+    left: 0;
+    top: auto;
     bottom: -40px;
 
 }
@@ -1504,7 +1515,7 @@ footer button.btn1:hover {
 
 /*-- //to-top --*/
 
-
+/*
 @media(max-width:1080px) {
     .main-slider h2 {
         font-size: 1.6em;
@@ -1536,7 +1547,7 @@ footer button.btn1:hover {
         font-size: 0.9em;
     }
 }
-
+*/
 @media(max-width:991px) {
     .navbar-toggler {
         position: absolute;
